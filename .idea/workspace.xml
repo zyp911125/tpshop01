@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38fca5ee-410f-4747-9de2-475a0a21ab94" name="Default" comment="" />
+    <list default="true" id="38fca5ee-410f-4747-9de2-475a0a21ab94" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/0b6d57df-897e-41a3-ba12-f518ef9c11e4-attachment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/696b0641-deb8-4a08-82ea-9e14ca5bff45-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/aab4287e-6282-4b85-8626-3822db8c19f1-attachment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/ab803ca1-51a8-45ee-a9bc-79b80ccf986d-attachment.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/c89fe699-12c7-404e-b08a-4e9f9c79b505-attachment.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/login_data.yml" afterPath="$PROJECT_DIR$/data/login_data.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test_login.py" afterPath="$PROJECT_DIR$/scripts/test_login.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +34,8 @@
       <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="400">
+              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -37,8 +46,8 @@
       <file leaf-file-name="base_action.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/博学谷学习资料/学习资料/资料/UI自动化测试资料/上海一期-移动端自动化测试-代码/day10/02-代码/tpshop/base/base_action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="92" column="24" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="92" selection-end-column="24" />
+            <state relative-caret-position="2108">
+              <caret line="95" column="63" lean-forward="true" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -49,7 +58,7 @@
       <file leaf-file-name="base_action.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/base_action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="260">
               <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
@@ -59,7 +68,7 @@
       <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/博学谷学习资料/学习资料/资料/UI自动化测试资料/上海一期-移动端自动化测试-代码/day10/02-代码/tpshop/scripts/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="868">
               <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -88,8 +97,8 @@
         <option value="$PROJECT_DIR$/base/base_yml.py" />
         <option value="$PROJECT_DIR$/page/login_page.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/data/login_data.yml" />
         <option value="$PROJECT_DIR$/base/base_action.py" />
+        <option value="$PROJECT_DIR$/data/login_data.yml" />
         <option value="$PROJECT_DIR$/scripts/test_login.py" />
       </list>
     </option>
@@ -126,6 +135,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,18 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/login_data.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/博学谷学习资料/学习资料/资料/UI自动化测试资料/上海一期-移动端自动化测试-代码/day10/02-代码/tpshop/base/base_action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="92" selection-end-column="24" />
+        <state relative-caret-position="2108">
+          <caret line="95" column="63" lean-forward="true" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -614,7 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/base_action.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="260">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
@@ -622,7 +637,7 @@
     </entry>
     <entry file="file://D:/博学谷学习资料/学习资料/资料/UI自动化测试资料/上海一期-移动端自动化测试-代码/day10/02-代码/tpshop/scripts/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="868">
           <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -630,10 +645,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/login_data.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="400">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

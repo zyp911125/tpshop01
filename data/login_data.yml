@@ -13,7 +13,9 @@ test_login:
     username: "13764371990"
     password: "qq123123"
     toast: "13764371990"
+    screen: "screen_login_001"
   test_login_002:
     username: "137643719901"
     password: "qq123123"
     toast: "不存在"
+    screen: "screen_login_002"

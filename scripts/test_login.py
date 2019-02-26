@@ -38,7 +38,6 @@ class TestLogin:
         password = args["password"]
         toast = args["toast"]
         screen = args["screen"]
-
         # 输入手机号
         allure.attach('输入用户名', username)
         self.login_page.input_username(username)
