@@ -1,0 +1,41 @@
+{
+  "a48d6d3cf9c32ea64a54165e6b00296e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a2816e512feec8b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>>('不存在')\n +    where <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>> = <page.login_page.LoginPage object at 0x000001E4821ABA20>.is_toast_exist\n +      where <page.login_page.LoginPage object at 0x000001E4821ABA20> = <test_login.TestLogin object at 0x000001E4821AB0B8>.login_page",
+      "time" : {
+        "start" : 1551175607039,
+        "stop" : 1551175635643,
+        "duration" : 28604
+      }
+    } ]
+  },
+  "3c39cfd41d6ac26e681bcdb1b1a19971" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a20d50779293822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551175575094,
+        "stop" : 1551175604096,
+        "duration" : 29002
+      }
+    } ]
+  }
+}

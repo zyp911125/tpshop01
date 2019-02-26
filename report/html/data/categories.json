@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False\n +  where False = <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>>('不存在')\n +    where <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>> = <page.login_page.LoginPage object at 0x000001E4821ABA20>.is_toast_exist\n +      where <page.login_page.LoginPage object at 0x000001E4821ABA20> = <test_login.TestLogin object at 0x000001E4821AB0B8>.login_page",
+      "children" : [ {
+        "name" : "TestLogin.test_login[args1]",
+        "uid" : "6a2816e512feec8b",
+        "parentUid" : "39213119ce09a7da1c2b8678a40a97f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551175607039,
+          "stop" : 1551175635643,
+          "duration" : 28604
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39213119ce09a7da1c2b8678a40a97f1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,19 @@
+#test_login:
+#  -
+#    - "18503080305"
+#    - "123000"
+#    - "成功"
+#  -
+#    - "185030803051"
+#    - "123000"
+#    - "不存在"
+
+test_login:
+  test_login_001:
+    username: "13764371990"
+    password: "qq123123"
+    toast: "13764371990"
+  test_login_002:
+    username: "137643719901"
+    password: "qq123123"
+    toast: "不存在"

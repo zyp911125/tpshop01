@@ -1,0 +1,66 @@
+{
+  "uid" : "6a2816e512feec8b",
+  "name" : "TestLogin.test_login[args1]",
+  "fullName" : "test_login.TestLogin.test_login[args1]",
+  "historyId" : "a48d6d3cf9c32ea64a54165e6b00296e",
+  "time" : {
+    "start" : 1551175607039,
+    "stop" : 1551175635643,
+    "duration" : 28604
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>>('不存在')\n +    where <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>> = <page.login_page.LoginPage object at 0x000001E4821ABA20>.is_toast_exist\n +      where <page.login_page.LoginPage object at 0x000001E4821ABA20> = <test_login.TestLogin object at 0x000001E4821AB0B8>.login_page",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x000001E4821AB0B8>, args = {'password': 'qq123123', 'toast': '不存在', 'username': '137643719901'}\n\n    @pytest.mark.parametrize(\"args\", data_with_key(\"test_login\"))\n    def test_login(self, args):\n         # 输入手机号\n         self.login_page.input_username(args[\"username\"])\n         # 输入密码\n         self.login_page.input_password(args[\"password\"])\n         # 点击登录\n         self.login_page.click_login()\n>        assert self.login_page.is_toast_exist(args[\"toast\"])\nE        AssertionError: assert False\nE         +  where False = <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>>('不存在')\nE         +    where <bound method BaseAction.is_toast_exist of <page.login_page.LoginPage object at 0x000001E4821ABA20>> = <page.login_page.LoginPage object at 0x000001E4821ABA20>.is_toast_exist\nE         +      where <page.login_page.LoginPage object at 0x000001E4821ABA20> = <test_login.TestLogin object at 0x000001E4821AB0B8>.login_page\n\nscripts\\test_login.py:42: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BU729IO"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "20592-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login[args1]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6a2816e512feec8b.json",
+  "parameterValues" : [ ]
+}
